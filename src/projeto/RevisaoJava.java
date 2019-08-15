@@ -87,7 +87,7 @@ public class RevisaoJava {
                
         System.out.println(pessoa1.getValorConta());
 
-        pessoa1.diminuiValorConta(600);
+        pessoa1.diminuiValorConta(100);
         System.out.println(pessoa1.getValorConta());
         
     }
