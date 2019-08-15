@@ -89,6 +89,7 @@ public class RevisaoJava {
     
     public static void imprimirMensagem(String par1){
         System.out.println(par1);
+        System.out.println("Editado");
     }
     
 }
