@@ -53,11 +53,19 @@ public class Pessoa {
     }
     
     public void diminuiValorConta(double valor) {
-        this.valorConta -= valor;
+        if (valor < this.valorConta && valor > 0) {
+            this.valorConta -= valor;
+        } else {
+            System.out.println("Inválido!");
+        }
     }
     
     public void aumentaValorConta(double valor){
-        this.valorConta += valor;
+        if (valor > 0) {
+            this.valorConta += valor;
+        } else {
+            System.out.println("Inválido!");
+        }
     }
     
     

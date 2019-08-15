@@ -85,7 +85,10 @@ public class RevisaoJava {
         String sorteio = Funcoes.sortearNumeros(6, 60);
         System.out.println("SORTEIO = " + sorteio);
                
+        System.out.println(pessoa1.getValorConta());
 
+        pessoa1.diminuiValorConta(600);
+        System.out.println(pessoa1.getValorConta());
         
     }
     
