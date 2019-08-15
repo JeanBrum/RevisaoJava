@@ -52,6 +52,14 @@ public class Pessoa {
         this.valorConta = valorConta;
     }
     
+    public void diminuiValorConta(double valor) {
+        this.valorConta -= valor;
+    }
+    
+    public void aumentaValorConta(double valor){
+        this.valorConta += valor;
+    }
+    
     
     
     @Override

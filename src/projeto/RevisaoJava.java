@@ -84,12 +84,14 @@ public class RevisaoJava {
         System.out.println();//linha em branco
         String sorteio = Funcoes.sortearNumeros(6, 60);
         System.out.println("SORTEIO = " + sorteio);
+               
+
         
     }
     
     public static void imprimirMensagem(String par1){
         System.out.println(par1);
-        System.out.println("Editado");
+        
     }
     
 }
